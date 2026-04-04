@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-saha-bg: #FFFFFF;
+  --color-saha-text: #000000;
+  --color-saha-soft: #FFF9E6;
+  --color-saha-soft-hover: #FFF3C2;
+  --color-saha-border: #F3D98B;
+  --color-saha-gray: #6B7280;
+  --color-saha-gray-light: #9CA3AF;
+  
+  --color-saha-accent: #F4C542;
+  --color-saha-accent-strong: #E0AE1A;
+  --color-saha-accent-soft: #FFF4BF;
+  --color-saha-red: #EF4444;
+  --color-saha-green: #10B981;
+  --color-saha-orange: #F59E0B;
+
+  --font-sans: var(--font-plus-jakarta-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+:root {
+  --background: var(--color-saha-bg);
+  --foreground: var(--color-saha-text);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-saha-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-saha-accent);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-saha-accent-strong);
+}
