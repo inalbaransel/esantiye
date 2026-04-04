@@ -25,9 +25,9 @@ export default function ContactPage() {
                 Demo ve İletişim
               </h1>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl">
-                E-Şantiye&apos;yi kendi operasyonunuza göre görmek için
-                ekibimizle iletişime geçin. Size en uygun kurulum akışını
-                birlikte netleştirelim.
+                E-Şantiye&apos;yi kendi operasyonunuza göre görmek için ekibimizle
+                iletişime geçin. Size en uygun kurulum akışını birlikte
+                netleştirelim.
               </p>
 
               <div className="mt-10 space-y-5">
@@ -86,8 +86,7 @@ export default function ContactPage() {
                 İletişim Formu
               </h2>
               <p className="mt-4 text-lg leading-8 text-slate-600">
-                Bilgilerinizi bırakın, ekibimiz en kısa sürede size dönüş
-                yapsın.
+                Bilgilerinizi bırakın, ekibimiz en kısa sürede size dönüş yapsın.
               </p>
 
               <form className="mt-8 space-y-5">

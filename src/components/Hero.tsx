@@ -66,7 +66,7 @@ export default function Hero() {
 
           <div className="hero-text flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-2 lg:px-0">
             <Link
-              href="/contact"
+              href="/iletisim"
               className="group flex w-full cursor-pointer items-center justify-center gap-2 rounded-xl bg-[#f4c542] px-6 py-4 text-base font-bold text-black transition-all shadow-[0_14px_35px_rgba(244,197,66,0.25)] hover:bg-[#e0ae1a] sm:w-auto"
             >
               Demo Talep Et
@@ -189,7 +189,7 @@ export default function Hero() {
                 </div>
 
                 <Link
-                  href="/contact"
+                  href="/iletisim"
                   className="mt-auto block w-full cursor-pointer rounded-full bg-black py-4 text-center text-sm font-bold text-white shadow-xl shadow-black/20"
                 >
                   Dokümanı Aç

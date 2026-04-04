@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useRef } from "react"
+import Link from "next/link"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
@@ -48,15 +49,24 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-4 sm:gap-8">
-            <a href="#" className="hover:text-[#e0ae1a] transition-colors">
+            <Link
+              href="/kvkk"
+              className="hover:text-[#e0ae1a] transition-colors"
+            >
               KVKK
-            </a>
-            <a href="#" className="hover:text-[#e0ae1a] transition-colors">
+            </Link>
+            <Link
+              href="/kullanim-kosullari"
+              className="hover:text-[#e0ae1a] transition-colors"
+            >
               Kullanım Koşulları
-            </a>
-            <a href="#" className="hover:text-[#e0ae1a] transition-colors">
+            </Link>
+            <Link
+              href="/iletisim"
+              className="hover:text-[#e0ae1a] transition-colors"
+            >
               İletişim
-            </a>
+            </Link>
           </div>
         </div>
       </div>

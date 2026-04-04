@@ -32,7 +32,7 @@ export default function Navbar() {
         </Link>
         <div>
           <Link
-            href="/contact"
+            href="/iletisim"
             className="cursor-pointer rounded-xl bg-[#f4c542] px-5 py-2.5 text-sm font-bold text-black transition-all shadow-[0_10px_25px_rgba(244,197,66,0.28)] hover:bg-[#e0ae1a] sm:px-6"
           >
             Demo Talep Et

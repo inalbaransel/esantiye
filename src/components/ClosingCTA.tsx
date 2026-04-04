@@ -36,7 +36,10 @@ export default function ClosingCTA() {
   }, [])
 
   return (
-    <section ref={containerRef} className="overflow-hidden bg-saha-accent px-5 py-14 sm:px-8 sm:py-20 lg:py-24">
+    <section
+      ref={containerRef}
+      className="overflow-hidden bg-saha-accent px-5 py-14 sm:px-8 sm:py-20 lg:py-24"
+    >
       <div className="pointer-events-none absolute" />
       <div className="relative mx-auto max-w-[88rem]">
         <div className="relative overflow-hidden rounded-xl px-6 py-12 text-center sm:px-10 sm:py-16 lg:px-16 lg:py-20">
@@ -56,14 +59,17 @@ export default function ClosingCTA() {
 
             <div className="closing-cta-reveal mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Link
-                href="/contact"
+                href="/iletisim"
                 className="group flex w-full cursor-pointer items-center justify-center gap-3 rounded-xl bg-black px-8 py-4 text-base font-black text-white transition-all hover:bg-black/90 sm:w-auto sm:min-w-64 sm:text-xl"
               >
                 Hemen Başlayın
-                <ArrowRight size={20} className="transition-transform group-hover:translate-x-2" />
+                <ArrowRight
+                  size={20}
+                  className="transition-transform group-hover:translate-x-2"
+                />
               </Link>
               <Link
-                href="/contact"
+                href="/iletisim"
                 className="w-full cursor-pointer rounded-xl bg-white px-8 py-4 text-center text-base font-black text-black transition-all hover:bg-white/90 sm:w-auto sm:min-w-64 sm:text-xl"
               >
                 Satış Ekibiyle Görüş
